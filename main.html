@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym website</title>
+    <script src="script.js"></script>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <!-- left for logo, mid for navbar, right for buttons -->
+    <header class="header">
+        <div class="left">
+            <img src="img/list-logo.jpg" alt="">
+            <div>My To-do List</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                Add a to-do task or Look at Weather
+            </ul>
+        </div>
+        <div class="right">
+            <a href="index2.html" target="_blank">
+                <button class="btn" >Look up Weather here</button>
+            </a>
+            
+        </div>
+    </header>
+    <div class="container">
+        <div id="newtask">
+            <input type="text" placeholder ="Task to be done">
+            <button id="push">Add</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    
+</body>
+</html>
+
