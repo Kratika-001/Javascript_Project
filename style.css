@@ -29,13 +29,6 @@ body{
     margin: 29px auto;  
     
 }
-.right{
-    position: absolute;
-    right: 34px;
-    top: 20px;
-    display: inline-block;
-    
-}
 .navbar{
     display: inline-block;
     font-weight: 900;
